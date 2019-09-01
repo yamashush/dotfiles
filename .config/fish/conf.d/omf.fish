@@ -6,8 +6,6 @@ set -q XDG_DATA_HOME
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
 
-# set -g fish_prompt_pwd_dir_length 5
-
 # 
 # highlighting colors
 # 
@@ -15,7 +13,6 @@ source $OMF_PATH/init.fish
 # (default) https://github.com/fish-shell/fish-shell/blob/82052a6cc9fa797070d8945130d45226d5cbc1c5/share/functions/__fish_config_interactive.fish
 
 # OMP Agnoster 
-
 
 # OMP bobthefish 
 # set -g theme_color_scheme terminal
