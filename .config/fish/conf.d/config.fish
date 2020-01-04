@@ -22,8 +22,8 @@ end
 #
 function cd
     if count $argv > /dev/null
-        builtin cd "$argv"; and ls
+        builtin cd "$argv"; and la
     else
-        builtin cd ~; and ls
+        builtin cd ~; and la
     end
 end
