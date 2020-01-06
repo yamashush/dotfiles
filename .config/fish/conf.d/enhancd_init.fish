@@ -55,3 +55,6 @@ end
 
 # alias to enhancd
 eval "alias $ENHANCD_COMMAND 'enhancd'"
+
+# auto ls
+set ENHANCD_HOOK_AFTER_CD la
