@@ -22,6 +22,11 @@ set -gx BAT_THEME "Dracula"
 alias bl='bat -plain --paging=never -l log'
 alias bln='bat -plain --style=numbers --paging=never -l log'
 
+# exa
+# https://github.com/ogham/exa
+alias ls='exa'
+alias la='exa -al'
+
 # heroku
 alias hl='heroku local -e env | bln'
 alias tl='tail -f -20 log/development.log | bl'
