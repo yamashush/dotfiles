@@ -1,7 +1,5 @@
 .DS_Store
 
 # fish 
-./fish/completions/*
-./fish/functions/*
 ./fish/conf.d/credential.fish
 fish_variables
