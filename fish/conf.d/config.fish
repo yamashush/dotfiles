@@ -103,6 +103,7 @@ alias gchb='git checkout -b'
 alias gchm='git checkout main'
 alias gm='git merge'
 alias gmum='git merge upstream/main'
+alias gt='git log --graph --all --format="%x09%C(cyan bold)%an%Creset%x09%C(yellow)%h%Creset %C(magenta reverse)%d%Creset %s"'
 
 # auto ls
 function cd
