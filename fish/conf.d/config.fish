@@ -32,6 +32,13 @@ alias la='exa -al' # exa: Unknown argument -A
 alias hl='heroku local -e env | bln'
 alias tl='tail -f -20 log/development.log | bl'
 
+# jira
+# https://github.com/ankitpokhrel/jira-cli
+alias jira_sprint_me='jira sprint list --current -a$(jira me) -s~Done'
+alias jira_sprint_me_all='jira sprint list --current -a$(jira me)'
+alias jira_sprint='jira sprint list --current -s~Done --order-by assignee'
+alias jira_sprint_all='jira sprint list --current --order-by assignee'
+
 # peco 
 # https://github.com/oh-my-fish/plugin-peco
 function fish_user_key_bindings
