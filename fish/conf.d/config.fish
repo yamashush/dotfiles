@@ -26,7 +26,7 @@ alias bln='bat -plain --style=numbers --paging=never -l log'
 # exa
 # https://github.com/ogham/exa
 alias ls='exa'
-alias la='exa -al'
+alias la='exa -al' # exa: Unknown argument -A
 
 # heroku
 alias hl='heroku local -e env | bln'
