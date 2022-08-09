@@ -1,6 +1,7 @@
 # PATH
 set -Ux fish_user_paths $HOME/.rbenv/bin $fish_user_paths
 set -x PATH $HOME/.rbenv/shims $PATH
+set -x PATH $HOME/.nodenv/shims $PATH
 
 # Ruby
 set -gx RUBY_CONFIGURE_OPTS "--with-openssl-dir=/opt/homebrew/opt/openssl@1.1/"
