@@ -13,7 +13,26 @@ echo "ok. run brew upgrade..."
 brew upgrade
 
 
-formulas=()
+formulas=(
+  exa
+  fish
+  fisher
+  fzf
+  gitmoji
+  heroku
+  jira-cli
+  jp2a
+  neofetch
+  neovim
+  nodenv
+  peco
+  pyenv
+  rbenv
+  ripgrep
+  sl
+  speedtest
+  tmux
+)
 
 echo "brew tap"
 # brew tap thirdparty
