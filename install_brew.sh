@@ -32,6 +32,9 @@ formulas=(
   sl
   speedtest
   tmux
+
+  koekeishiya/formulae/skhd
+  koekeishiya/formulae/yabai
 )
 
 echo "brew tap"
