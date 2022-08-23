@@ -14,27 +14,28 @@ brew upgrade
 
 
 formulas=(
-  exa
-  fish
-  fisher
-  fzf
-  gitmoji
-  heroku
-  jira-cli
-  jp2a
-  neofetch
-  neovim
-  nodenv
-  peco
-  pyenv
-  rbenv
-  ripgrep
-  sl
-  speedtest
-  tmux
+    exa
+    fish
+    fisher
+    fzf
+    gitmoji
+    heroku
+    jira-cli
+    jp2a
+    jq
+    neofetch
+    neovim
+    nodenv
+    peco
+    pyenv
+    rbenv
+    ripgrep
+    sl
+    speedtest
+    tmux
 
-  koekeishiya/formulae/skhd
-  koekeishiya/formulae/yabai
+    koekeishiya/formulae/skhd
+    koekeishiya/formulae/yabai
 )
 
 echo "brew tap"
