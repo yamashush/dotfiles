@@ -45,4 +45,7 @@ yabai -m config left_padding                 12
 yabai -m config right_padding                12
 yabai -m config window_gap                   06
 
+# Status bar for Third-party tools
+yabai -m config external_bar all:0:20
+
 echo "yabai configuration loaded.."
