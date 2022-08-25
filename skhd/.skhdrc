@@ -78,9 +78,17 @@
 
 # focus window
 ctrl + alt - d : yabai -m window --focus prev
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east 
 
 # swap managed window
-shift + alt - h : yabai -m window --swap north
+# shift + alt - h : yabai -m window --swap north
+shift + alt - h : yabai -m window --swap west
+shift + alt - j : yabai -m window --swap south
+shift + alt - k : yabai -m window --swap north
+shift + alt - l : yabai -m window --swap east
 
 # move managed window
 shift + cmd - h : yabai -m window --warp east
@@ -156,3 +164,7 @@ alt - 3 : yabai -m window --toggle float; yabai -m window --grid 1:3:1:0:1:1
 alt - 4 : yabai -m window --toggle float; yabai -m window --grid 1:3:2:0:1:1
 alt - 5 : yabai -m window --toggle float; yabai -m window --grid 1:4:3:0:1:1
 alt - 6 : yabai -m window --toggle float; yabai -m window --grid 1:6:1:0:4:1
+
+alt - 7 : yabai -m space --move 1
+alt - 8 : yabai -m space --focus 2
+alt - 9 : yabai -m space --focus 3
