@@ -78,6 +78,7 @@
 
 # focus window
 alt - h : yabai -m window --focus west
+shift + cmd - m : ~/dotfiles/yabai/cycle_clockwise.sh™
 
 # swap managed window
 shift + alt - h : yabai -m window --swap north
