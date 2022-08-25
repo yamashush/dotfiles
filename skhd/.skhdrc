@@ -102,7 +102,6 @@ shift + cmd - n : yabai -m space --create && \
 
 # fast focus desktop
 cmd + alt - x : yabai -m space --focus recent
-cmd + alt - 1 : yabai -m space --focus 1
 
 # send window to desktop and follow focus
 shift + cmd - z : yabai -m window --space next; yabai -m space --focus next
