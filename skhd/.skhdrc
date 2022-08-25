@@ -77,7 +77,7 @@
 # ############################################################### #
 
 # focus window
-alt - h : yabai -m window --focus west
+ctrl + alt - d : yabai -m window --focus prev
 
 # swap managed window
 shift + alt - h : yabai -m window --swap north
@@ -147,4 +147,13 @@ alt - p : yabai -m window --toggle sticky;\
           yabai -m window --toggle topmost;\
           yabai -m window --toggle pip
 
-# shift + cmd - m : ~/dotfiles/yabai/cycle_clockwise.sh™
+# alt - b : yabai -m window focus west; ~/dotfiles/yabai/cycle_clockwise.sh
+alt - b : yabai -m window --grid 1:3:0:0:2:1
+
+
+alt - 1 : yabai -m window --toggle float; yabai -m window --grid 1:4:0:0:1:1
+alt - 2 : yabai -m window --toggle float; yabai -m window --grid 1:3:0:0:1:1
+alt - 3 : yabai -m window --toggle float; yabai -m window --grid 1:3:1:0:1:1
+alt - 4 : yabai -m window --toggle float; yabai -m window --grid 1:3:2:0:1:1
+alt - 5 : yabai -m window --toggle float; yabai -m window --grid 1:4:3:0:1:1
+alt - e : yabai -m window --toggle float; yabai -m window --grid 1:6:1:0:4:1
