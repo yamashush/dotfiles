@@ -52,5 +52,6 @@ yabai -m config external_bar all:20:0
 yabai -m rule --add app="^Dictionary$"         manage=off
 yabai -m rule --add app="^Disk Utility$"       manage=off
 yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add app="^AltTab$" manage=off
 
 echo "yabai configuration loaded.."
