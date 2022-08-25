@@ -54,4 +54,14 @@ yabai -m rule --add app="^Disk Utility$"        manage=off
 yabai -m rule --add app="^System Preferences$"  manage=off
 yabai -m rule --add app="^AltTab$"              manage=off
 
+window_id_vscode="$(
+  yabai -m query --windows \
+    | jq -e 'map(select(.app == "Code")) | .[].id'
+)"
+for index in $window_id_vscode
+do
+  yabai -m window $index --toggle float
+  yabai -m window $index --grid 1:6:1:0:4:1
+done
+
 echo "yabai configuration loaded.."
