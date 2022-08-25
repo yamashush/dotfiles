@@ -48,7 +48,9 @@ for formula in "${formulas[@]}"; do
 done
 
 # install gui up
-casks=()
+casks=(
+    hammerspoon # https://github.com/Hammerspoon/hammerspoon
+)
 
 echo "brew casks"
 for cask in "${casks[@]}"; do
