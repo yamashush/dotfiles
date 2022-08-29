@@ -14,6 +14,7 @@ brew upgrade
 
 
 formulas=(
+    coreutils
     exa
     fish
     fisher
@@ -32,6 +33,7 @@ formulas=(
     ripgrep
     sl
     speedtest
+    translate-shell
     tmux
 
     koekeishiya/formulae/skhd
