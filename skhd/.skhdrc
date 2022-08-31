@@ -81,11 +81,6 @@
 # shift + ctrl - c : yabai -m window --toggle split
 # alt + 2 : yabai -m space --focus next
 
-# shift + cmd - h : yabai -m window --warp west
-# shift + cmd - j : yabai -m window --warp south
-# shift + cmd - k : yabai -m window --warp north
-# shift + cmd - l : yabai -m window --warp east
-
 # # focus window
 alt - h : yabai -m window --focus west
 alt - j : yabai -m window --focus sout
@@ -98,8 +93,11 @@ shift + alt - j : yabai -m window --swap south
 shift + alt - k : yabai -m window --swap north
 shift + alt - l : yabai -m window --swap east
 
-# # move managed window
-# shift + cmd - h : yabai -m window --warp east
+# move managed window
+shift + cmd - h : yabai -m window --warp west
+shift + cmd - j : yabai -m window --warp south
+shift + cmd - k : yabai -m window --warp north
+shift + cmd - l : yabai -m window --warp east
 
 # balance size of windows
 shift + alt - 0 : yabai -m space --balance
