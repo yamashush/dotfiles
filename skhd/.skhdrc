@@ -104,7 +104,7 @@ shift + cmd - k : yabai -m window --warp north
 shift + cmd - l : yabai -m window --warp east
 
 # balance size of windows
-shift + alt - 0 : yabai -m space --balance
+alt - b : yabai -m space --balance
 
 alt - c : ~/dotfiles/yabai/cycle_clockwise.sh;\
           yabai -m window focus east
@@ -160,9 +160,10 @@ shift + alt - w : yabai -m window --resize top:0:-20
 # # toggle window split type
 alt - e : yabai -m window --toggle split
 
-# # float / unfloat window and center on screen
-# alt - t : yabai -m window --toggle float;\
-#           yabai -m window --grid 1:6:1:0:4:1
+# float / unfloat window and center on screen
+# The grid format is <rows>:<cols>:<start-x>:<start-y>:<width>:<height>
+alt - z : yabai -m window --toggle float;\
+          yabai -m window --grid 1:6:1:0:4:1
 
 # # toggle sticky(+float), topmost, picture-in-picture
 # alt - p : yabai -m window --toggle sticky;\
