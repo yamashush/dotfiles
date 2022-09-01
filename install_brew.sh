@@ -36,12 +36,14 @@ formulas=(
     translate-shell
     tmux
 
+    hashicorp/tap/terraform
     koekeishiya/formulae/skhd
     koekeishiya/formulae/yabai
 )
 
 echo "brew tap"
 # brew tap thirdparty
+brew tap hashicorp/tap
 brew tap homebrew/cask-fonts
 
 echo "brew install formula"
