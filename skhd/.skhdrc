@@ -88,10 +88,14 @@ alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
 
 # # swap managed window
-shift + alt - h : yabai -m window --swap west
-shift + alt - j : yabai -m window --swap south
-shift + alt - k : yabai -m window --swap north
-shift + alt - l : yabai -m window --swap east
+shift + alt - h : yabai -m window --swap west;\
+                  yabai -m window --focus east
+shift + alt - j : yabai -m window --swap south;\
+                  yabai -m window --focus north
+shift + alt - k : yabai -m window --swap north;\
+                  yabai -m window --focus south
+shift + alt - l : yabai -m window --swap east;\
+                  yabai -m window --focus west
 
 # move managed window
 shift + cmd - h : yabai -m window --warp west
@@ -101,6 +105,9 @@ shift + cmd - l : yabai -m window --warp east
 
 # balance size of windows
 shift + alt - 0 : yabai -m space --balance
+
+alt - c : ~/dotfiles/yabai/cycle_clockwise.sh;\
+          yabai -m window focus east
 
 # # make floating window fill screen
 # shift + alt - up     : yabai -m window --grid 1:1:0:0:1:1
@@ -160,7 +167,7 @@ shift + alt - 0 : yabai -m space --balance
 #           yabai -m window --toggle topmost;\
 #           yabai -m window --toggle pip
 
-# alt - b : yabai -m window focus west; ~/dotfiles/yabai/cycle_clockwise.sh
+
 # # alt - b : yabai -m window --grid 1:3:0:0:2:1
 
 
