@@ -121,12 +121,12 @@ alt - c : ~/dotfiles/yabai/cycle_clockwise.sh;\
 #                   yabai -m window --space "${index}" && \
 #                   yabai -m space --focus "${index}"
 
-# # fast focus desktop
+# fast focus desktop
 # cmd + alt - x : yabai -m space --focus recent
 
-# # send window to desktop and follow focus
-# shift + cmd - z : yabai -m window --space next; yabai -m space --focus next
-# shift + cmd - 2 : yabai -m window --space  2; yabai -m space --focus 2
+# send window to desktop and follow focus -> focus できない
+shift + cmd - 1 : yabai -m window --space 1; yabai -m space --focus 1
+shift + cmd - 2 : yabai -m window --space 2; yabai -m space --focus 2
 
 # # focus monitor
 # ctrl + alt - z  : yabai -m display --focus prev
