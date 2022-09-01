@@ -12,7 +12,6 @@ which brew >/dev/null 2>&1 && brew update
 echo "ok. run brew upgrade..."
 brew upgrade
 
-
 formulas=(
     coreutils
     exa
@@ -52,16 +51,16 @@ for formula in "${formulas[@]}"; do
 done
 
 # install gui up
-casks=()
+casks=(
+    google-cloud-sdk
+)
 
 echo "brew casks"
 for cask in "${casks[@]}"; do
     brew install --cask $cask
 done
 
-
 stores=()
-
 
 echo "app stores"
 for store in "${stores[@]}"; do
