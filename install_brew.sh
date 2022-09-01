@@ -53,6 +53,7 @@ done
 # install gui up
 casks=(
     google-cloud-sdk
+    postman
 )
 
 echo "brew casks"
