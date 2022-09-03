@@ -165,6 +165,9 @@ alt - e : yabai -m window --toggle split
 alt - z : yabai -m window --toggle float;\
           yabai -m window --grid 1:6:1:0:4:1
 
+# restart
+alt - r : brew services restart yabai
+
 # # toggle sticky(+float), topmost, picture-in-picture
 # alt - p : yabai -m window --toggle sticky;\
 #           yabai -m window --toggle topmost;\
