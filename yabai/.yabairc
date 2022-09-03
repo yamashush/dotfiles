@@ -49,6 +49,7 @@ yabai -m config window_gap                   06
 yabai -m config external_bar all:20:0
 
 # Rules
+# app name list: yabai -m query --windows | jq '.[].app '
 yabai -m rule --add app="^Dictionary$"          manage=off
 yabai -m rule --add app="^Disk Utility$"        manage=off
 yabai -m rule --add app="^System Preferences$"  manage=off
