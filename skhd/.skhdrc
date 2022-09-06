@@ -156,7 +156,7 @@ shift + alt - w : yabai -m window --resize top:0:-20; yabai -m window --resize b
 # ctrl + alt - h : yabai -m window --insert west
 
 # # toggle window zoom
-# alt - d : yabai -m window --toggle zoom-parent
+alt - d : yabai -m window --toggle zoom-parent
 alt - f : yabai -m window --toggle zoom-fullscreen
 
 # # toggle window split type
