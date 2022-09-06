@@ -65,4 +65,15 @@ yabai -m rule --add app="^AltTab$"              manage=off
 #   yabai -m window $index --grid 1:6:1:0:4:1
 # done
 
+# set float layout for MacBook Pro display
+# https://github.com/JunichiSugiura/dotfiles/blob/main/packages/wm/.config/yabai/yabairc
+space_indices_on_mbp_display="$(
+    yabai -m query --displays \
+        | jq -e 'map(select(.uuid == "37D8832A-2D66-02CA-B9F7-8F30A301B230")) | .[0].spaces[]'
+)"
+for index in "$space_indices_on_mbp_display"
+do
+    yabai -m config --space "$index" layout stack
+done
+
 echo "yabai configuration loaded.."
