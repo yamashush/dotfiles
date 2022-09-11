@@ -54,6 +54,7 @@ yabai -m rule --add app="^Dictionary$"          manage=off
 yabai -m rule --add app="^Disk Utility$"        manage=off
 yabai -m rule --add app="^System Preferences$"  manage=off
 yabai -m rule --add app="^AltTab$"              manage=off
+yabai -m rule --add app="^DDPM$"                manage=off
 
 # window_id_vscode="$(
 #   yabai -m query --windows \
