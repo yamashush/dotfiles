@@ -78,4 +78,33 @@ do
     yabai -m config --space "$index" layout stack
 done
 
+# set float layout for Dell U4021QW display
+# https://github.com/JunichiSugiura/dotfiles/blob/main/packages/wm/.config/yabai/yabairc
+space_indices_on_dell42_display="$(
+    yabai -m query --displays \
+        | jq -e 'map(select(.uuid == "496D229A-B22E-4E5F-B671-D7B32E558526)) | .[0].spaces[]'
+)"
+for index in "$space_indices_on_dell42_display"
+do
+    window_id_vscode="$(
+        yabai -m query --windows \
+        | jq -e 'map(select(.app == "Code")) | .[].id'
+    )"
+    for index in $window_id_vscode
+    do
+        yabai -m window $index --toggle float
+        yabai -m window $index --grid 1:6:1:0:4:1
+    done
+
+    window_id_iterm2="$(
+        yabai -m query --windows \
+        | jq -e 'map(select(.app == "iTerm2")) | .[].id'
+    )"
+    for index in $window_id_iterm2
+    do
+        yabai -m window $index --toggle float
+        yabai -m window $index --grid 1:1:0:0:1:1
+    done
+done
+
 echo "yabai configuration loaded.."
