@@ -108,7 +108,7 @@ shift + cmd - n : yabai -m window --warp next
 # balance size of windows
 alt - b : yabai -m space --balance
 
-alt - c : ~/dotfiles/yabai/cycle_clockwise.sh;\
+alt - q : ~/dotfiles/yabai/cycle_clockwise.sh;\
           yabai -m window focus east
 
 # # make floating window fill screen
@@ -164,8 +164,12 @@ alt - e : yabai -m window --toggle split
 
 # float / unfloat window and center on screen
 # The grid format is <rows>:<cols>:<start-x>:<start-y>:<width>:<height>
-alt - z : yabai -m window --toggle float;\
+alt - c : yabai -m window --toggle float;\
+          yabai -m window --grid 1:3:1:0:1:1
+alt - x : yabai -m window --toggle float;\
           yabai -m window --grid 1:6:1:0:4:1
+alt - z : yabai -m window --toggle float;\
+          yabai -m window --grid 1:1:0:0:1:1
 
 # restart
 alt - r : brew services restart yabai
