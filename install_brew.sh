@@ -33,8 +33,9 @@ formulas=(
     ripgrep
     sl
     speedtest
-    translate-shell
+    tfenv
     tmux
+    translate-shell
 
     hashicorp/tap/terraform
     koekeishiya/formulae/skhd
