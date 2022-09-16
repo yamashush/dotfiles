@@ -13,6 +13,7 @@ echo "ok. run brew upgrade..."
 brew upgrade
 
 formulas=(
+    circleci
     coreutils
     exa
     fish
