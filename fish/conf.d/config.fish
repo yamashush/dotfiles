@@ -14,7 +14,7 @@ set SPACEFISH_DATE_SHOW true
 set SPACEFISH_TIME_PREFIX "⏰ "
 set SPACEFISH_PROMPT_FIRST_PREFIX_SHOW true
 set SPACEFISH_DIR_PREFIX "🗂  "
-set SPACEFISH_GIT_PREFIX "🌳 "
+set SPACEFISH_GIT_PREFIX "🌱 "
 
 # bat
 # https://github.com/sharkdp/bat
