@@ -139,6 +139,6 @@ function fish_greeting
     jp2a (random choice /Users/yamashu/Dropbox/AA/**.**)
 end
 
-function load
+function fish_load
     exec fish
 end
