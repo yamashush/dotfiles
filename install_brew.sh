@@ -20,6 +20,7 @@ formulas=(
     fisher
     fzf
     gitmoji
+    graphviz
     heroku
     jira-cli
     jp2a
