@@ -92,6 +92,7 @@ alias vv="fzf \
 # git
 alias g='git'
 alias gb='git branch'
+alias gbc='git branch --show-current'
 alias gs='git status'
 # alias gd='git diff'
 alias gds='git diff --staged'
