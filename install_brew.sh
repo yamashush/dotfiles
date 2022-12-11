@@ -56,6 +56,7 @@ done
 
 # install gui up
 casks=(
+    1password/tap/1password-cli
     google-cloud-sdk
     postman
 )
