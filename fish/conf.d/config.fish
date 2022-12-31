@@ -30,7 +30,7 @@ alias ls='exa --time-style long-iso'
 alias la='ls -al' # exa: Unknown argument -A
 
 # heroku
-alias hl='heroku local -e env | bln'
+alias hl='heroku local -e env | bl'
 alias tl='tail -f -20 log/development.log | bl'
 
 # jira
