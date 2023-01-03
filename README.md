@@ -10,6 +10,12 @@ ln -s ~/dotfiles/fish/ ~/.config/fish
 ln -s ~/dotfiles/starship.toml ~/.config/starship.toml
 ```
 
+# nvim
+
+```sh
+ln -s ~/dotfiles/nvim ~/.config/nvim
+```
+
 # skhd
 
 ```sh
