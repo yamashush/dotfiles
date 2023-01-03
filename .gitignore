@@ -3,3 +3,8 @@
 # fish 
 credential.fish
 fish_variables
+/fish/completions/*
+/fish/functions/*
+/fish/conf.d/*
+!/fish/conf.d/config.fish
+
