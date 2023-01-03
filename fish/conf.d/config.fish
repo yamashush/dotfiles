@@ -8,13 +8,18 @@ set -gx RUBY_CONFIGURE_OPTS "--with-openssl-dir=/opt/homebrew/opt/openssl@1.1/"
 set -gx RUBY_CFLAGS "-w"
 
 # prompt
+# https://github.com/starship/starship
+# https://starship.rs/config/
+starship init fish | source
+
+# TODO: old prompt migration
 # https://spacefish.matchai.dev/docs/Options.html
-set SPACEFISH_TIME_SHOW true
-set SPACEFISH_DATE_SHOW true
-set SPACEFISH_TIME_PREFIX "⏰ "
-set SPACEFISH_PROMPT_FIRST_PREFIX_SHOW true
-set SPACEFISH_DIR_PREFIX "🗂  "
-set SPACEFISH_GIT_PREFIX "🌱 "
+# set SPACEFISH_TIME_SHOW true
+# set SPACEFISH_DATE_SHOW true
+# set SPACEFISH_TIME_PREFIX "⏰ "
+# set SPACEFISH_PROMPT_FIRST_PREFIX_SHOW true
+# set SPACEFISH_DIR_PREFIX "🗂  "
+# set SPACEFISH_GIT_PREFIX "🌱 "
 
 # bat
 # https://github.com/sharkdp/bat

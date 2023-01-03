@@ -35,6 +35,7 @@ formulas=(
     ripgrep
     sl
     speedtest
+    starship # fish prompt https://github.com/starship/starship
     tfenv
     tmux
     translate-shell
