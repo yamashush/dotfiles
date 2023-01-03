@@ -43,15 +43,15 @@ alias jira_sprint_all='jira sprint list --current --order-by assignee'
 function fish_user_key_bindings
     bind \cr 'peco_select_history (commandline -b)'
     # bind \cr '__fzf_reverse_isearch'
-    bind \co '__fzf_open --editor'
-    bind \cg '__fzf_open'
+    # bind \co '__fzf_open --editor'
+    # bind \cg '__fzf_open'
 end 
 
 # fzf
 # https://github.com/jethrokuan/fzf 
-set -x FZF_DEFAULT_OPTS '
-    --border
-'
+# set -x FZF_DEFAULT_OPTS '
+#     --border
+# '
 alias vs="code (fzf \
     --cycle \
     --height=90% \
@@ -69,14 +69,14 @@ alias gdd="git status -s \
         --color=info:#fabd2f,prompt:#fabd2f,pointer:#8ec07c \
         --color=marker:#8ec07c,spinner:#8ec07c,header:#83a598 \
         --preview-window=right:70%:wrap"
-set -x FORGIT_FZF_DEFAULT_OPTS "
-    --exact \
-    --cycle \
-    --reverse \
-    --height '90%' \
-    --color=info:#fabd2f,prompt:#fabd2f,pointer:#8ec07c \
-    --color=marker:#8ec07c,spinner:#8ec07c,header:#83a598
-"
+# set -x FORGIT_FZF_DEFAULT_OPTS "
+#     --exact \
+#     --cycle \
+#     --reverse \
+#     --height '90%' \
+#     --color=info:#fabd2f,prompt:#fabd2f,pointer:#8ec07c \
+#     --color=marker:#8ec07c,spinner:#8ec07c,header:#83a598
+# "
 alias vv="fzf \
     --cycle \
     --height=90% \
