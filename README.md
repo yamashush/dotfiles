@@ -4,6 +4,12 @@
 ln -s ~/dotfiles/fish/ ~/.config/fish
 ```
 
+# starship
+
+```sh
+ln -s ~/dotfiles/starship.toml ~/.config/starship.toml
+```
+
 # skhd
 
 ```sh
