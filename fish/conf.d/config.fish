@@ -20,9 +20,7 @@ set -gx RUBY_CFLAGS "-w"
 # https://github.com/sharkdp/bat
 # https://github.com/sharkdp/bat/blob/master/doc/README-ja.md
 set -gx BAT_THEME "Dracula"
-alias cat='bat'
-alias bl='bat -plain --paging=never -l log'
-alias bln='bat -plain --style=numbers --paging=never -l log'
+alias cat='bat -plain --paging=never -l log'
 
 # exa
 # https://github.com/ogham/exa
