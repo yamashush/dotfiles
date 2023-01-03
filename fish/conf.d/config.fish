@@ -131,16 +131,15 @@ end
 # auto ls (enhancd hook)
 set -gx ENHANCD_HOOK_AFTER_CD la
 
-#
 # alias grep 
-#
 alias grep='grep --color=auto -i'
 alias fi='find ./app -name "*" -type f | xargs grep --color=auto -i'
 
-function fish_greeting  
-    # https://github.com/cslarsen/jp2a
-    jp2a (random choice /Users/yamashu/Dropbox/AA/**.**)
-end
+# show AA
+# function fish_greeting
+#     # https://github.com/cslarsen/jp2a
+#     jp2a (random choice /Users/yamashu/Dropbox/AA/**.**)
+# end
 
 function fish_load
     exec fish
