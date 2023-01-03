@@ -58,6 +58,8 @@ done
 # install gui up
 casks=(
     1password/tap/1password-cli
+    font-fira-code-nerd-font
+    font-Hack-nerd-font
     google-cloud-sdk
     postman
 )
