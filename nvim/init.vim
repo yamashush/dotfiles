@@ -1,1 +1,3 @@
-set number 
+set number
+set clipboard+=unnamed
+
