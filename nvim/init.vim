@@ -1,6 +1,10 @@
 set number
 set clipboard+=unnamed
 
+" 80 coloum line
+let &colorcolumn=join(range(81,999),",")
+hi ColorColumn ctermbg=235 guibg=#2c2d27
+
 call plug#begin()
 " The default plugin directory will be as follows:
 "   - Vim (Linux/macOS): '~/.vim/plugged'
@@ -13,8 +17,18 @@ call plug#begin()
 " Make sure you use single quotes
 "
 
-" https://github.com/EdenEast/nightfox.nvim
+" https://github.com/junegunn/fzf.vim
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" https://github.com/nvim-treesitter/nvim-treesitter
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+"" https://github.com/EdenEast/nightfox.nvim
 Plug 'EdenEast/nightfox.nvim' " Vim-Plug
+
+" https://github.com/nathanaelkane/vim-indent-guides
+" Plug 'nathanaelkane/vim-indent-guides'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
@@ -24,4 +38,5 @@ call plug#end()
 "   syntax off            " Disable syntax highlighting
 
 colorscheme nightfox
+
 
