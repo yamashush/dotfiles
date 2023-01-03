@@ -24,8 +24,11 @@ Plug 'junegunn/fzf.vim'
 " https://github.com/nvim-treesitter/nvim-treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
-"" https://github.com/EdenEast/nightfox.nvim
-Plug 'EdenEast/nightfox.nvim' " Vim-Plug
+" https://github.com/EdenEast/nightfox.nvim
+Plug 'EdenEast/nightfox.nvim'
+
+" https://github.com/Mofiqul/dracula.nvim
+Plug 'Mofiqul/dracula.nvim'
 
 " https://github.com/nathanaelkane/vim-indent-guides
 " Plug 'nathanaelkane/vim-indent-guides'
@@ -37,6 +40,7 @@ call plug#end()
 "   filetype indent off   " Disable file-type-specific indentation
 "   syntax off            " Disable syntax highlighting
 
-colorscheme nightfox
-
+" 気分で変える
+"colorscheme nightfox
+colorscheme dracula
 
