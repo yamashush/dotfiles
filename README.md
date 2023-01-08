@@ -10,6 +10,12 @@ ln -s ~/dotfiles/fish/ ~/.config/fish
 ln -s ~/dotfiles/starship.toml ~/.config/starship.toml
 ```
 
+# tmux
+
+```sh
+ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+```
+
 # nvim
 
 ```sh
