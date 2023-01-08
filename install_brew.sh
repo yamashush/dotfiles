@@ -62,6 +62,7 @@ casks=(
     font-Hack-nerd-font
     google-cloud-sdk
     postman
+    raycast
 )
 
 echo "brew casks"
