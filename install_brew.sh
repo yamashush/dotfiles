@@ -39,6 +39,7 @@ formulas=(
     tfenv
     tmux
     translate-shell
+    vercel-cli
 
     hashicorp/tap/terraform
     koekeishiya/formulae/skhd
