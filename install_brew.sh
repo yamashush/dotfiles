@@ -59,6 +59,7 @@ done
 # install gui up
 casks=(
     1password/tap/1password-cli
+    evernote
     font-fira-code-nerd-font
     font-Hack-nerd-font
     google-cloud-sdk
