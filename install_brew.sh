@@ -41,7 +41,6 @@ formulas=(
     translate-shell
     vercel-cli
 
-    hashicorp/tap/terraform
     koekeishiya/formulae/skhd
     koekeishiya/formulae/yabai
 )
