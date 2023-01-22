@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO: replace to https://github.com/Homebrew/homebrew-bundle
+
 echo "installing homebrew..."
 which brew >/dev/null 2>&1 || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
