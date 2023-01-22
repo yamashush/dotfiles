@@ -2,7 +2,7 @@ set number
 set clipboard+=unnamed
 
 " 80 coloum line
-let &colorcolumn=join(range(81,999),",")
+let &colorcolumn=join(range(121,999),",")
 hi ColorColumn ctermbg=235 guibg=#2c2d27
 
 call plug#begin()
