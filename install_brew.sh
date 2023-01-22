@@ -65,6 +65,7 @@ casks=(
     font-Hack-nerd-font
     google-cloud-sdk
     postman
+    spotify
     raycast
 )
 
