@@ -67,6 +67,7 @@ casks=(
     postman
     spotify
     raycast
+    warp
 )
 
 echo "brew casks"
