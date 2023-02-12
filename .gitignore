@@ -8,3 +8,6 @@ fish_variables
 /fish/conf.d/*
 !/fish/conf.d/config.fish
 
+# homebrew
+Brewfile.lock.json
+
