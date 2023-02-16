@@ -94,7 +94,7 @@ do
     for index in $window_id_vscode
     do
         yabai -m window $index --toggle float
-        yabai -m window $index --grid 1:6:1:0:4:1
+        yabai -m window $index --grid 1:10:1:0:8:1
     done
 
     window_id_iterm2="$(
