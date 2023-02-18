@@ -2,6 +2,28 @@
 
 brew "act"
 brew "circleci"
-
-
-
+brew "coreutils"
+brew "exa"
+brew "fish"
+brew "fisher"
+brew "fzf"
+brew "gitmoji"
+brew "graphviz"
+brew "heroku"
+brew "jira-cli"
+brew "jp2a"
+brew "jq"
+brew "neofetch"
+brew "neovim"
+brew "nodenv"
+brew "peco"
+brew "pyenv"
+brew "rbenv"
+brew "ripgrep"
+brew "sl"
+brew "speedtest"
+brew "starship" # fish prompt https://github.com/starship/starship
+brew "tfenv"
+brew "tmux"
+brew "translate-shell"
+brew "vercel-cli"
