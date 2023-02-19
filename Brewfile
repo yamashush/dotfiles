@@ -1,5 +1,9 @@
 # https://github.com/Homebrew/homebrew-bundle
 
+tap "homebrew/cask"
+tap "hashicorp/tap"
+tap "homebrew/cask-fonts"
+
 brew "act"
 brew "circleci"
 brew "coreutils"
@@ -27,6 +31,7 @@ brew "tfenv"
 brew "tmux"
 brew "translate-shell"
 brew "vercel-cli"
+
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 
