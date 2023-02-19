@@ -27,6 +27,8 @@ brew "tfenv"
 brew "tmux"
 brew "translate-shell"
 brew "vercel-cli"
+brew "koekeishiya/formulae/skhd"
+brew "koekeishiya/formulae/yabai"
 
 cask "1password/tap/1password-cli"
 cask "evernote"
