@@ -36,6 +36,7 @@ brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 
 cask "1password/tap/1password-cli"
+# cask "EasyRres" # https://apps.apple.com/jp/app/easyres/id688211836
 cask "evernote"
 cask "font-fira-code-nerd-font"
 cask "font-Hack-nerd-font"
