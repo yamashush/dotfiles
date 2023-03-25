@@ -3,6 +3,7 @@
 tap "homebrew/cask"
 tap "hashicorp/tap"
 tap "homebrew/cask-fonts"
+tap "teamookla/speedtest"
 
 brew "act"
 brew "circleci"
@@ -29,7 +30,6 @@ brew "redis"
 brew "ripgrep"
 brew "ruby-build"
 brew "sl"
-brew "speedtest"
 brew "starship" # fish prompt https://github.com/starship/starship
 brew "tfenv"
 brew "tmux"
