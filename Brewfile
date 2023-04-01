@@ -1,5 +1,8 @@
 # https://github.com/Homebrew/homebrew-bundle
 
+# need device password
+cask "1password/tap/1password-cli"
+
 tap "homebrew/cask"
 tap "hashicorp/tap"
 tap "homebrew/cask-fonts"
@@ -39,7 +42,6 @@ brew "vercel-cli"
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 
-cask "1password/tap/1password-cli"
 # cask "EasyRres" # https://apps.apple.com/jp/app/easyres/id688211836
 cask "evernote"
 cask "font-fira-code-nerd-font"
