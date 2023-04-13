@@ -2,6 +2,18 @@
 
 # need device password
 cask "1password/tap/1password-cli"
+cask "google-cloud-sdk"
+
+# cask "EasyRres" # https://apps.apple.com/jp/app/easyres/id688211836
+cask "evernote"
+cask "font-fira-code-nerd-font"
+cask "font-Hack-nerd-font"
+cask "ngrok"
+cask "postman"
+cask "spotify"
+cask "tabby"
+cask "raycast"
+cask "warp"
 
 tap "homebrew/cask"
 tap "hashicorp/tap"
@@ -41,15 +53,3 @@ brew "vercel-cli"
 
 brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
-
-# cask "EasyRres" # https://apps.apple.com/jp/app/easyres/id688211836
-cask "evernote"
-cask "font-fira-code-nerd-font"
-cask "font-Hack-nerd-font"
-cask "google-cloud-sdk"
-cask "ngrok"
-cask "postman"
-cask "spotify"
-cask "tabby"
-cask "raycast"
-cask "warp"
