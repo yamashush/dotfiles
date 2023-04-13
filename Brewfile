@@ -15,6 +15,7 @@ cask "tabby"
 cask "raycast"
 cask "warp"
 
+tap "ankitpokhrel/jira-cli"
 tap "homebrew/cask"
 tap "hashicorp/tap"
 tap "homebrew/cask-fonts"
