@@ -96,16 +96,6 @@ do
         yabai -m window $index --toggle float
         yabai -m window $index --grid 1:10:1:0:8:1
     done
-
-    window_id_iterm2="$(
-        yabai -m query --windows \
-        | jq -e 'map(select(.app == "iTerm2")) | .[].id'
-    )"
-    for index in $window_id_iterm2
-    do
-        yabai -m window $index --toggle float
-        yabai -m window $index --grid 1:1:0:0:1:1
-    done
 done
 
 echo "yabai configuration loaded.."
