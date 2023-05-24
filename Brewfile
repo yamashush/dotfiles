@@ -50,6 +50,7 @@ brew "ruby-build"
 brew "sl"
 brew "starship" # fish prompt https://github.com/starship/starship
 brew "tfenv"
+brew "tig"
 brew "tmux"
 brew "translate-shell"
 brew "vercel-cli"
