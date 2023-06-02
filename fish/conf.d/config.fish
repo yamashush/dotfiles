@@ -45,8 +45,8 @@ alias jira_sprint_all='jira sprint list --current --order-by assignee'
 # peco 
 # https://github.com/oh-my-fish/plugin-peco
 function fish_user_key_bindings
-    bind \cr 'peco_select_history (commandline -b)'
-    # bind \cr '__fzf_reverse_isearch'
+    # bind \cr 'peco_select_history (commandline -b)'
+    bind \cr '__fzf_reverse_isearch'
     # bind \co '__fzf_open --editor'
     # bind \cg '__fzf_open'
 end 
