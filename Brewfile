@@ -25,6 +25,7 @@ tap "teamookla/speedtest"
 
 brew "act"
 brew "circleci"
+brew "cloc"
 brew "coreutils"
 brew "exa"
 brew "fish"
