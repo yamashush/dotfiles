@@ -26,10 +26,9 @@ set -Ux FZF_DEFAULT_OPTS "--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#
 set -gx BAT_THEME "Dracula"
 alias cat='bat -plain --paging=never -l log'
 
-# exa
-# https://github.com/ogham/exa
-alias ls='exa --time-style long-iso'
-alias la='ls -al' # exa: Unknown argument -A
+# eza
+alias ls='eza --time-style long-iso'
+alias la='ls -al' # eza: Unknown argument -A
 
 # heroku
 alias hl='heroku local -e .env | bl'
