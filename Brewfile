@@ -23,6 +23,7 @@ tap "homebrew/cask-fonts"
 tap "teamookla/speedtest"
 
 brew "act"
+brew "bat"
 brew "circleci"
 brew "cloc"
 brew "coreutils"
