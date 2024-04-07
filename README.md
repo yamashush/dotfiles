@@ -1,9 +1,8 @@
 # init :seed:
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew tap Homebrew/bundle
-brew bundle
+chmod u+x ./install.sh
+./install.sh
 
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/.guard.rb ~/.guard.rb
