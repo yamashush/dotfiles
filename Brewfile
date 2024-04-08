@@ -5,6 +5,7 @@ cask "1password/tap/1password-cli"
 cask "google-cloud-sdk"
 
 # cask "EasyRres" # https://apps.apple.com/jp/app/easyres/id688211836
+cask "DaisyDisk"
 cask "evernote"
 cask "font-fira-code-nerd-font"
 cask "font-Hack-nerd-font"
