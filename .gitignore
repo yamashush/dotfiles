@@ -11,3 +11,9 @@ fish_variables
 # homebrew
 Brewfile.lock.json
 
+# tmp files
+tmp.*
+temp.*
+hoge.*
+faga.*
+piyo.*
