@@ -15,9 +15,10 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 vim.g.maplocalleader = "\\" -- Same for `maplocalleader`
 
-require("lazy").setup({
-  "folke/which-key.nvim",
-  { "folke/neoconf.nvim", cmd = "Neoconf" },
-  "folke/neodev.nvim",
-})
-
+require("lazy").setup("plugins",
+  {
+    -- "folke/which-key.nvim",
+    -- { "folke/neoconf.nvim", cmd = "Neoconf" },
+    -- "folke/neodev.nvim",
+  }
+)
