@@ -6,6 +6,7 @@ fish_variables
 /fish/completions/*
 /fish/functions/*
 /fish/conf.d/*
+/fish/themes/*
 !/fish/conf.d/config.fish
 
 # homebrew
