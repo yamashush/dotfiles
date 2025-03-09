@@ -3,10 +3,10 @@
 # fish 
 credential.fish
 fish_variables
-/fish/completions/*
-/fish/functions/*
-/fish/conf.d/*
-/fish/themes/*
+/.config/fish/completions/*
+/.config/fish/functions/*
+/.config/fish/conf.d/*
+/.config/fish/themes/*
 !/fish/conf.d/config.fish
 
 # homebrew
