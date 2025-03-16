@@ -1,4 +1,5 @@
 theme = GitHub-Dark-High-Contrast
+window-theme = ghostty
 
 background-opacity = 0.90
 background-blur-radius = 20
