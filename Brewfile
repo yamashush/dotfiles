@@ -4,10 +4,10 @@ tap "teamookla/speedtest"
 brew "asdf"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Toolchain of the web
+brew "biome"
 # Statistics utility to count lines of code
 brew "cloc"
-# Lightweight, framework-agnostic database migration tool
-brew "dbmate"
 # Modern, maintained replacement for ls
 brew "eza"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -24,8 +24,6 @@ brew "mas"
 brew "neofetch"
 # Simplistic interactive filtering tool
 brew "peco"
-# Object-relational database system
-brew "postgresql@17"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Prints a steam locomotive if you type sl instead of ls
@@ -72,4 +70,5 @@ cask "rectangle"
 cask "slack"
 # Music streaming service
 cask "spotify"
+mas "Monosnap", id: 540348655
 mas "RunCat", id: 1429033973
