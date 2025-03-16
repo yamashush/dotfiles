@@ -5,3 +5,4 @@ window-padding-y = 5
 background-blur-radius = 20
 macos-titlebar-style = transparent
 font-family = JetBrainsMonoNL Nerd Font Mono
+font-feature = -dlig
