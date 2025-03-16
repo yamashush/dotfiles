@@ -35,7 +35,7 @@ set --erase _asdf_shims
 #############################################################
 # https://vitormv.github.io/fzf-themes/
 set -Ux FZF_DEFAULT_OPTS " \
-    --height 20% --tmux top,20% --layout reverse --border top \
+    --height 70% --tmux top,70% --layout reverse --border top \
     --border=rounded \
     --color=fg:#d0d0d0,bg:-1,hl:#5f87af \
     --color=fg+:#d0d0d0,bg+:#262626,hl+:#5fd7ff \
