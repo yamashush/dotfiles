@@ -62,6 +62,8 @@ cask "google-japanese-ime"
 cask "keycastr"
 # Replacement for Docker Desktop
 cask "orbstack"
+# Collaboration platform for API development
+cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas

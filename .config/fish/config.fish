@@ -53,7 +53,7 @@ alias c='clear'
 # bat
 # https://github.com/sharkdp/bat
 # https://github.com/sharkdp/bat/blob/master/doc/README-ja.md
-set -gx BAT_THEME "GitHub"
+set -gx BAT_THEME "Dracula"
 alias cat='bat -plain --paging=never -l log'
 # eza
 alias ls='eza --time-style long-iso'
