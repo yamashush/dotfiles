@@ -1,6 +1,16 @@
-theme = GitHub Dark
-background-opacity = 0.95
+theme = GitHub-Dark-High-Contrast
+window-theme = ghostty
+
+background-opacity = 0.90
+background-blur-radius = 20
 window-padding-x = 5
 window-padding-y = 5
-background-blur-radius = 20
-macos-titlebar-style = transparent
+
+font-family = JetBrainsMonoNL Nerd Font Mono
+font-feature = -dlig
+
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+
+macos-titlebar-proxy-icon = hidden

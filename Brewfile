@@ -4,10 +4,10 @@ tap "teamookla/speedtest"
 brew "asdf"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Toolchain of the web
+brew "biome"
 # Statistics utility to count lines of code
 brew "cloc"
-# Lightweight, framework-agnostic database migration tool
-brew "dbmate"
 # Modern, maintained replacement for ls
 brew "eza"
 # User-friendly command-line shell for UNIX-like operating systems
@@ -24,8 +24,6 @@ brew "mas"
 brew "neofetch"
 # Simplistic interactive filtering tool
 brew "peco"
-# Object-relational database system
-brew "postgresql@17"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Prints a steam locomotive if you type sl instead of ls
@@ -64,6 +62,8 @@ cask "google-japanese-ime"
 cask "keycastr"
 # Replacement for Docker Desktop
 cask "orbstack"
+# Collaboration platform for API development
+cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -72,4 +72,17 @@ cask "rectangle"
 cask "slack"
 # Music streaming service
 cask "spotify"
+mas "Monosnap", id: 540348655
 mas "RunCat", id: 1429033973
+vscode "biomejs.biome"
+vscode "dracula-theme.theme-dracula"
+vscode "github.github-vscode-theme"
+vscode "github.vscode-github-actions"
+vscode "golang.go"
+vscode "hashicorp.terraform"
+vscode "knisterpeter.vscode-github"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.makefile-tools"
+vscode "saoudrizwan.claude-dev"
+vscode "zxh404.vscode-proto3"

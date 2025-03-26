@@ -3,3 +3,7 @@
 
 # for asdf
 .tool-versions
+
+# for local
+yamashu.*
+
