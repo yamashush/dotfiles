@@ -29,6 +29,8 @@ if not contains $_asdf_shims $PATH
 end
 set --erase _asdf_shims
 
+# for golang
+set -x PATH $(go env GOPATH)/bin $PATH
 
 #############################################################
 # fzf
