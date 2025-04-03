@@ -45,7 +45,9 @@ set -Ux FZF_DEFAULT_OPTS " \
     --color=marker:#87ff00,spinner:#af5fff,header:#87afaf \
 "
 
-set -Ux ENHANCD_FILTER "fzf --height 40%:fzy"
+# set -Ux ENHANCD_FILTER "fzf --height 40%:fzy"
+# set -gx ENHANCD_DIR $HOME
+# set -gx ENHANCD_HOOK_AFTER_CD la
 
 #############################################################
 # aliases
@@ -60,7 +62,7 @@ alias cat='bat -plain --paging=never -l log'
 # eza
 alias ls='eza --time-style long-iso'
 alias la='ls -al' # eza: Unknown argument -A
-# grep 
+# grep
 alias grep='grep --color=auto -i'
 # find
 alias fi='find ./ -name "*" -type f | xargs grep --color=auto -i'
@@ -97,15 +99,16 @@ alias gtt='git log --all --graph --format="%x09%C(cyan bold)%an%Creset%x09%C(yel
 #############################################################
 # auto ls
 #############################################################
-function cd
-    if count $argv > /dev/null
-        builtin cd "$argv"; and la
-    else
-        builtin cd ~; and la
-    end
-end
+# function cd
+#     if count $argv > /dev/null
+#         builtin cd "$argv"; and la
+#     else
+#         builtin cd ~; and la
+#     end
+# end
 # auto ls (enhancd hook)
-set -gx ENHANCD_HOOK_AFTER_CD la
+# set -gx ENHANCD_HOOK_AFTER_CD la
+# set -gx ENHANCD_DIR $HOME
 
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
