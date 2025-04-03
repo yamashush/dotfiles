@@ -6,7 +6,8 @@ background-blur-radius = 20
 window-padding-x = 5
 window-padding-y = 5
 
-font-family = JetBrainsMonoNL Nerd Font Mono
+font-family = "Source Han Code JP, JetBrainsMonoNL Nerd Font Mono"
+font-feature = -calt
 font-feature = -dlig
 
 shell-integration-features = no-cursor
@@ -14,3 +15,4 @@ cursor-style = block
 cursor-style-blink = false
 
 macos-titlebar-proxy-icon = hidden
+macos-titlebar-style = tabs

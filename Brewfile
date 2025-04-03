@@ -8,6 +8,8 @@ brew "bat"
 brew "biome"
 # Statistics utility to count lines of code
 brew "cloc"
+# Tool for exploring each layer in a docker image
+brew "dive"
 # Modern, maintained replacement for ls
 brew "eza"
 # User-friendly command-line shell for UNIX-like operating systems
